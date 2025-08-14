@@ -102,7 +102,7 @@
         <p>Tampermonkeyという拡張機能を使用して動作します。</p>
 
         <h2>Tampermonkeyの導入方法</h2>
-        <p>iOSではおそらく使えないことが判明しました</p>
+        <p>iOSの方法ではTampermonkeyは使えないらしくて、同じように扱えるViolentmonkeyを使用します</p>
         <h3>PCの場合</h3>
         <ol>
             <li><strong>使用しているブラウザのウェブストアから<code>Tampermonkey</code>をインストールする</strong>
@@ -114,12 +114,12 @@
             </li>
             <li><strong>ブラウザ右上の拡張機能一覧から<code>Tampermonkey</code>の管理ページを開く</strong>
                 <ul>
-                    <li>Chrome / Edge の場合: `開発者モード`や`ユーザスクリプトを許可する`などを有効化する</li>
+                    <li>Chrome / Edge の場合: <code>開発者モード</code>や<code>ユーザスクリプトを許可する</code>などを有効化する</li>
                     <li>Firefoxの場合は不要</li>
                 </ul>
             </li>
         </ol>
-        <h3>androidの場合</h3>
+        <h3>Androidの場合</h3>
         <ol>
             <li><strong>Edgeをインストールする</strong>
                 <ul>
@@ -133,6 +133,25 @@
                 </ul>
             </li>
         </ol>
+        <h3>iOSの場合</h3>
+        <ol>
+            <li><strong>Orionをインストールする</strong>
+                <ul>
+                    <li>唯一iOSでの動作を確認できたブラウザ<a href="https://apps.apple.com/jp/app/orion-browser-by-kagi/id1484498200">Orion</a>をインストールしてください</li>
+                </ul>
+            </li>
+            <li><strong>Chrome拡張機能をONにする</strong>
+                <ul>
+                    <li>Orionを開いて設定→詳細設定→Chrome拡張機能をオンにする、の手順でONにする</li>
+                </ul>
+            </li>
+            <li><strong>拡張機能のViolentmonkeyを入れる</strong>
+                <ul>
+                    <li>ユーザースクリプトを使うために<a href="https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=ja&refresh=1">Violentmonkey</a>を入れます(Tampermonkeyは使えないらしい)</li>
+                </ul>
+            </li>
+        </ol>
+            
         <h2>菊のマーブルの導入方法</h2>
         <p><strong>現在、公式リポジトリではマージの際に問題がありバグが発生しています。お手数ですが、正常に動作するこちらのフォーク版をお使いください。</strong></p>
         <p>スマホでもPCでも同じです</p>
@@ -200,6 +219,7 @@
     </div>
 </body>
 </html>
+
 
 
 
