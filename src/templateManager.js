@@ -109,7 +109,7 @@ export default class TemplateManager {
    */
   async createJSON() {
     return {
-      "whoami": this.name.replace(' ', ''), // Name of userscript without spaces
+      "whoami": "ChrysanthemumMarble", // Name of userscript without spaces
       "scriptVersion": this.version, // Version of userscript
       "schemaVersion": this.templatesVersion, // Version of JSON schema
       "templates": {} // The templates
